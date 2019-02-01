@@ -9,6 +9,7 @@ class Banks extends CI_Controller
         $this->load->model('Banks_Model');
     }
 
+    //Umut
     public function index()
     {
         $data['msg'] = $this->session->flashdata('message');
